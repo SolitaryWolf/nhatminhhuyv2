@@ -8,7 +8,7 @@ node_modules
 /coverage
 
 # next.js
-# /.next/
+/.next/dev/
 /out/
 
 # next.js dev cache (exclude from production builds)

@@ -79,11 +79,11 @@ function ContactPage({ params }) {
             title: 'LIÊN HỆ',
             companyName: 'CÔNG TY TNHH THƯƠNG MẠI DỊCH VỤ VẬN TẢI NHẬT MINH HUY',
             address: 'Địa chỉ',
-            addressValue: '166/2Q Trần Văn Dư, Phường 13, Quận Tân Bình, Tp. HCM',
+            addressValue: '166/2Q Trần Văn Dư, Phường Tân Bình, Thành Phố Hồ Chí Minh, Việt Nam',
             phone: 'Điện thoại',
-            phoneValue: '0968903913 (Mr Huy - Manager)',
+            phoneValue: '(84) 968 903 913 (Mr. Huy - Manager)',
             email: 'Email',
-            emailValue: 'nhatminhhuy.co@gmail.com',
+            emailValue: 'huy@nhatminhhuy.com',
             taxCode: 'Mã số thuế',
             taxCodeValue: '0316926982'
         },
@@ -91,11 +91,11 @@ function ContactPage({ params }) {
             title: 'CONTACT',
             companyName: 'NHAT MINH HUY TRANSPORT SERVICE TRADING COMPANY LIMITED',
             address: 'Address',
-            addressValue: '166/2Q Tran Van Du, Ward 13, Tan Binh District, HCM City',
+            addressValue: '166/2Q Tran Van Du Street, Tan Binh Ward, Ho Chi Minh City, Vietnam',
             phone: 'Phone',
-            phoneValue: '0968903913 (Mr Huy - Manager)',
+            phoneValue: '(84) 968 903 913 (Mr. Huy - Manager)',
             email: 'Email',
-            emailValue: 'nhatminhhuy.co@gmail.com',
+            emailValue: 'huy@nhatminhhuy.com.com',
             taxCode: 'Tax Code',
             taxCodeValue: '0316926982'
         }
@@ -209,7 +209,7 @@ function ContactPage({ params }) {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-gray-800",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "mailto:nhatminhhuy.co@gmail.com",
+                                            href: "mailto:huy@nhatminhhuy.com.com",
                                             className: "text-[#1F5F9E] hover:text-[#FFD900] transition-colors font-semibold",
                                             children: t.emailValue
                                         }, void 0, false, {

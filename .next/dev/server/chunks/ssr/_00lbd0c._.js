@@ -278,7 +278,7 @@ function BaubergerLayout({ children, locale, backgroundImage = '/images/Dịch v
                                                     onClick: (e)=>{
                                                         e.preventDefault();
                                                         e.stopPropagation();
-                                                        const email = 'nhatminhhuy.co@gmail.com';
+                                                        const email = 'huy@nhatminhhuy.com.com';
                                                         window.location.href = `mailto:${email}`;
                                                         navigator.clipboard.writeText(email).then(()=>{
                                                             alert(isVi ? 'Email đã được sao chép!' : 'Email copied to clipboard!');
@@ -289,7 +289,7 @@ function BaubergerLayout({ children, locale, backgroundImage = '/images/Dịch v
                                                     className: "hover:underline transition-all cursor-pointer bg-transparent border-none text-[#1F5F9E] font-semibold text-[10px] sm:text-xs lg:text-sm truncate max-w-[180px] sm:max-w-none",
                                                     title: "Send us an email",
                                                     type: "button",
-                                                    children: "nhatminhhuy.co@gmail.com"
+                                                    children: "huy@nhatminhhuy.com.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/layout/BaubergerLayout.tsx",
                                                     lineNumber: 155,
@@ -568,7 +568,7 @@ function BaubergerLayout({ children, locale, backgroundImage = '/images/Dịch v
                                         const isActive = activePage === item.id;
                                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             href: item.href,
-                                            className: `block px-2 sm:px-4 lg:px-6 py-2 sm:py-3 lg:py-4 font-bold text-[10px] sm:text-xs lg:text-sm tracking-wide transition-all duration-300 relative rounded-l-xl text-center lg:text-left ${isActive ? 'bg-[#FFD900] text-[#1F5F9E] shadow-lg transform scale-105' : 'bg-[#1F5F9E] text-white hover:bg-[#2976BA] hover:transform hover:scale-105 hover:shadow-md'}`,
+                                            className: `block px-2 sm:px-4 lg:px-6 py-2 sm:py-3 lg:py-4 font-bold text-[10px] sm:text-xs lg:text-sm tracking-wide transition-all duration-300 relative rounded-xl lg:rounded-l-xl lg:rounded-r-none text-center lg:text-left border border-transparent ${isActive ? 'bg-[#FFD900] text-[#1F5F9E] shadow-lg transform scale-105 border-[#FFD900]' : 'bg-[#1F5F9E] text-white hover:bg-[#2976BA] hover:transform hover:scale-105 hover:shadow-md hover:border-[#FFD900]/30'}`,
                                             children: [
                                                 item.title,
                                                 isActive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

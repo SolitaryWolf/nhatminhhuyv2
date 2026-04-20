@@ -1,5 +1,3 @@
 {
-  "/[locale]/business-license/page": "app/[locale]/business-license/page.js",
-  "/[locale]/open-letter/page": "app/[locale]/open-letter/page.js",
-  "/[locale]/page": "app/[locale]/page.js"
+  "/[locale]/compliance/page": "app/[locale]/compliance/page.js"
 }
