@@ -31,8 +31,8 @@ export default function AboutPage({
           <p className="text-lg">
             <strong>{isVi ? 'Địa Chỉ:' : 'Address:'}</strong><br />
             {isVi
-              ? '181/1C Hoàng Hoa Thám, Phường 12, Quận Tân Bình, TP.HCM'
-              : '181/1C Hoang Hoa Tham St., Ward 12, Tan Binh Dist., HCMC'}
+              ? '166/2Q Trần Văn Dư, Phường Tân Bình, Thành Phố Hồ Chí Minh, Việt Nam'
+              : '166/2Q Tran Van Du Street, Tan Binh Ward, Ho Chi Minh City, Vietnam'}
           </p>
           <p className="text-lg">
             <strong>{isVi ? 'Mã Số Thuế:' : 'Tax ID:'}</strong> 0316926982

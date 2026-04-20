@@ -47,8 +47,8 @@ export function Footer({ locale, translations }: FooterProps) {
                 <HiLocationMarker className="h-5 w-5 text-gray-400 flex-shrink-0 mt-0.5" />
                 <span className="text-gray-400">
                   {locale === 'vi'
-                    ? '181/1C Hoàng Hoa Thám, Phường 12, Quận Tân Bình, TP.HCM'
-                    : '181/1C Hoang Hoa Tham St., Ward 12, Tan Binh Dist., HCMC'}
+                    ? '166/2Q Trần Văn Dư, Phường Tân Bình, Thành Phố Hồ Chí Minh, Việt Nam'
+                    : '166/2Q Tran Van Du Street, Tan Binh Ward, Ho Chi Minh City, Vietnam'}
                 </span>
               </div>
               <div className="flex items-center gap-3">
