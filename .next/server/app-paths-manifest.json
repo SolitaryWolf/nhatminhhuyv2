@@ -1,0 +1,21 @@
+{
+  "/[locale]/about/page": "app/[locale]/about/page.js",
+  "/[locale]/business-license/page": "app/[locale]/business-license/page.js",
+  "/[locale]/compliance/page": "app/[locale]/compliance/page.js",
+  "/[locale]/contact/page": "app/[locale]/contact/page.js",
+  "/[locale]/open-letter/page": "app/[locale]/open-letter/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/partners/page": "app/[locale]/partners/page.js",
+  "/[locale]/services/cargo-loading/page": "app/[locale]/services/cargo-loading/page.js",
+  "/[locale]/services/inland-transport/page": "app/[locale]/services/inland-transport/page.js",
+  "/[locale]/services/labor-supply/page": "app/[locale]/services/labor-supply/page.js",
+  "/[locale]/services/lifting-installation/page": "app/[locale]/services/lifting-installation/page.js",
+  "/[locale]/services/packaging/page": "app/[locale]/services/packaging/page.js",
+  "/[locale]/services/page": "app/[locale]/services/page.js",
+  "/[locale]/services/vehicle-rental/page": "app/[locale]/services/vehicle-rental/page.js",
+  "/[locale]/vision-mission/page": "app/[locale]/vision-mission/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+}

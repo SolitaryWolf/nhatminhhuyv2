@@ -1,0 +1,61 @@
+import { use } from 'react'
+import Link from 'next/link'
+import Image from 'next/image'
+import { BaubergerLayout } from '@/components/layout/BaubergerLayout'
+
+type Params = Promise<{ locale: string }>
+
+export default function CargoLoadingPage({ params }: { params: Params }) {
+  const { locale } = use(params)
+
+  const content = {
+    vi: {
+      title: 'DỊCH VỤ BỐC XẾP HÀNG HÓA',
+      intro: 'Dịch Vụ Bốc Xếp Hàng Hóa là việc sử dụng sức lao động để bốc xếp, bốc dỡ hàng hóa lên và xuống các phương tiện chuyên chở, Dịch vụ này có thể làm hoàn toàn thủ công, cũng có thể có sự hỗ trợ của máy móc nâng hạ.',
+      paragraph1: 'Dịch Vụ Bốc Xếp Hàng Hóa có thể thực hiện thông qua hợp đồng dịch vụ outsource hay hợp đồng cung ứng dịch vụ cho thuê lại lao động. Với hình thức hợp đồng dịch vụ outsource, NHẬT MINH HUY sẽ chủ động sắp xếp nhân lực, điều hành và quản lý công việc và tính phí trên khối lượng hàng hóa được bốc xếp, bốc dỡ giống như Dịch Vụ Gia Công Sản Xuất. Quý công ty chỉ cần quan tâm đến kết quả công việc đã được NHẬT MINH HUY thực hiện hoàn thành.',
+      paragraph2: 'Với hình thức hợp đồng cung ứng dịch vụ cho thuê lại lao động, NHẬT MINH HUY sẽ cử nhân viên của mình sang thực hiện công việc của quý Công ty thông qua hợp đồng cung ứng dịch vụ cho thuê lại lao động. Quý Công ty sẽ điều hành, quản lý lực lượng lao động này như lao động cơ hữu của mình. Các bên có thể thương lượng cách trả phí theo khối lượng hàng hóa được bốc xếp, bốc dỡ hay trả phí theo thời gian mà lao động thực hiện.',
+      backToServices: 'Quay lại Dịch vụ'
+    },
+    en: {
+      title: 'SERVICES OF CARGO LOADING AND UNLOADING',
+      intro: 'Cargo Loading and Unloading Service is the use of labor to load and unload goods onto and off transportation vehicles. This service can be done entirely by hand, or can also be supported by lifting machinery.',
+      paragraph1: 'Cargo Loading and Unloading Services can be performed through outsourcing service contracts or labor subleasing service contracts. With the form of outsource service contract, NHAT MINH HUY will proactively arrange human resources, operate and manage work and charge fees on the volume of goods loaded and unloaded like Production Processing Services. Your company only needs to pay attention to the results of the work that has been completed by NHAT MINH HUY.',
+      paragraph2: 'In the form of a contract to provide labor subleasing services, NHAT MINH HUY will send its employees to perform your Company\'s work through a contract to provide labor subleasing services. Your Company will operate and manage this workforce as your own contractual employees. The parties can negotiate how to pay fees according to the volume of goods loaded and unloaded, or pay fees according to the time labor takes.',
+      backToServices: 'Back to Services'
+    }
+  }
+
+  const t = content[locale as keyof typeof content] || content.en
+
+  return (
+    <BaubergerLayout locale={locale} backgroundImage="/images/Dịch vụ đai hàng trên container Flatrack.jpg" activePage="services">
+      <Link 
+        href={`/${locale}/services`}
+        className="inline-flex items-center text-[#1F5F9E] hover:text-[#FFD900] transition-colors mb-6 font-semibold"
+      >
+        ← {t.backToServices}
+      </Link>
+      
+      <h1 className="text-3xl font-bold bg-gradient-to-r from-[#1F5F9E] to-[#FFD900] bg-clip-text text-transparent mb-8 leading-tight py-2">
+        {t.title}
+      </h1>
+      
+      <div className="glass-card p-8 space-y-6">
+        <p className="text-gray-800 leading-relaxed text-lg">{t.intro}</p>
+        <p className="text-gray-800 leading-relaxed text-lg">{t.paragraph1}</p>
+        <p className="text-gray-800 leading-relaxed text-lg">{t.paragraph2}</p>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+          <div className="relative h-64 rounded-lg overflow-hidden">
+            <Image
+              src="/images/Dịch vụ đai hàng trên container Flatrack.jpg"
+              alt="Dịch vụ đai hàng trên container Flatrack"
+              fill
+              className="object-cover"
+            />
+          </div>
+        </div>
+      </div>
+    </BaubergerLayout>
+  )
+}

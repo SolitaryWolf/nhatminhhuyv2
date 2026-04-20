@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Giới thiệu",
+    "services": "Dịch vụ",
+    "projects": "Dự án",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "Nhà Cung Cấp Giải Pháp Logistics Hàng Đầu Việt Nam",
+    "subtitle": "Xây dựng Nhật Minh Huy trở thành một trong những Nhà cung cấp giải pháp logistics hàng đầu tại Việt Nam nhằm mang đến cho Khách Hàng những dịch vụ chất lượng với chi phí tối ưu.",
+    "cta": "Bắt đầu",
+    "learnMore": "Tìm hiểu thêm"
+  },
+  "footer": {
+    "company": "Công ty",
+    "quickLinks": "Liên kết nhanh",
+    "contact": "Liên hệ",
+    "followUs": "Theo dõi chúng tôi",
+    "rights": "Bản quyền thuộc về"
+  },
+  "contact": {
+    "title": "Liên Hệ Với Chúng Tôi",
+    "name": "Họ tên",
+    "email": "Email",
+    "message": "Tin nhắn",
+    "send": "Gửi tin nhắn",
+    "address": "166/2Q Trần Văn Dư, Phường Tân Bình, Thành Phố Hồ Chí Minh, Việt Nam",
+    "phone": "(84) 968 903 913",
+    "manager": "Mr. Huy - Giám đốc"
+  }
+}

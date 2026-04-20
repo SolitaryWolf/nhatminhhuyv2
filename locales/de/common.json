@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Qualität und Präzision – Weltweit",
+    "subtitle": "Wir arbeiten präzise, schnell und sicher mit Schweizer Qualität. Handhabung von Gegenständen immenser Größe und Gewicht mit höchster Genauigkeit.",
+    "cta": "Loslegen",
+    "learnMore": "Mehr erfahren"
+  },
+  "footer": {
+    "company": "Unternehmen",
+    "quickLinks": "Schnelllinks",
+    "contact": "Kontakt",
+    "followUs": "Folgen Sie uns",
+    "rights": "Alle Rechte vorbehalten"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Name",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "send": "Nachricht senden"
+  }
+}

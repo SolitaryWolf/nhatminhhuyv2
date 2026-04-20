@@ -1,0 +1,60 @@
+'use client'
+
+import { use } from 'react'
+import { BaubergerLayout } from '@/components/layout/BaubergerLayout'
+
+export default function OpenLetterPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = use(params)
+
+  return (
+    <BaubergerLayout locale={locale} backgroundImage="/images/Hạ hàng.jpg" activePage="open-letter">
+      <h1 className="text-3xl font-bold bg-gradient-to-r from-[#1F5F9E] to-[#FFD900] bg-clip-text text-transparent mb-8 leading-tight py-2">
+        {locale === 'vi' ? 'THƯ NGỎ' : 'OPEN LETTER'}
+      </h1>
+
+      <div className="glass-card p-8 space-y-6">
+        <p className="text-2xl font-semibold bg-gradient-to-r from-[#ff6b35] to-[#ffa500] bg-clip-text text-transparent">
+          {locale === 'vi' ? 'Kính gửi Quý Khách hàng, đối tác!' : 'Dear Our Valued Customers and Partners!'}
+        </p>
+
+        <p className="text-gray-800 leading-relaxed text-lg">
+          {locale === 'vi'
+            ? 'Công Ty TNHH Thương Mại Dịch Vụ Vận Tải Nhật Minh Huy xin được gửi đến Quý Khách hàng, đối tác lời chào thân ái, lời chúc sức khỏe, thành công, phát triển bền vững!'
+            : 'Nhat Minh Huy Transport Service Trading Company Limited would like to send to our customers and partners cordial greetings, wishes for health, success, and sustainable development!'}
+        </p>
+
+        <p className="text-gray-800 leading-relaxed text-lg">
+          {locale === 'vi'
+            ? 'Hướng đến mục tiêu trở thành nhà cung cấp các giải pháp hàng đầu về giao nhận và vận chuyển hàng hóa, NHẬT MINH HUY tự hào là đơn vị cung cấp dịch vụ logistics uy tín. Bằng sự đoàn kết, cố gắng không ngừng của đội ngũ tập thể lãnh đạo và nhân viên công ty, trong suốt quá trình hoạt động, NHẬT MINH HUY đã có những bước phát triển mạnh mẽ và ngày càng hoàn thiện để khẳng định vị trí của mình trên thị trường.'
+            : 'Aiming to become a leading provider of solutions for freight forwarding and transportation, NHAT MINH HUY is proud to be a reputable logistics service provider. With the solidarity and constant efforts of the company\'s leadership team and employees, throughout its operation, NHAT MINH HUY has made strong and increasingly perfect developments to affirm its position in the market.'}
+        </p>
+
+        <p className="text-gray-800 leading-relaxed text-lg">
+          {locale === 'vi'
+            ? 'Đội ngũ cán bộ công nhân viên chuyên nghiệp, được đào tạo bài bản, trình độ ngoại ngữ cao đang làm việc tại các văn phòng. Cùng với kinh nghiệm tích lũy, mối quan hệ liên tục được mở rộng, củng cố, chúng tôi tự tin tiếp nhận mọi nhu cầu vận chuyển hàng hóa trong nước và quốc tế. Chúng tôi cam kết sẽ mang đến cho Quý khách hàng và đối tác trong và ngoài nước những trải nghiệm dịch vụ tốt nhất, trong thời gian nhanh nhất.'
+            : 'A team of professional and well-trained employees with high foreign language proficiency is working in the offices. With accumulated experience and constantly expanding and strengthening relationships, we confidently accept all domestic and international cargo transportation needs. We are committed to providing domestic and foreign customers and partners with the best service experience, in the fastest time.'}
+        </p>
+
+        <p className="text-gray-800 leading-relaxed text-lg">
+          {locale === 'vi'
+            ? 'Hồ sơ năng lực này giúp khách hàng, đối tác có cái nhìn khái quát về Công Ty TNHH Thương Mại Dịch Vụ Vận Tải Nhật Minh Huy, về những lợi thế chúng tôi có, những cơ hội tiềm năng mà chúng ta có thể đạt được trong tương lai.'
+            : 'This profile helps customers and partners have an overview of Nhat Minh Huy Transport Service Trading Company Limited, the advantages we have, and the potential opportunities we can achieve in the future.'}
+        </p>
+
+        <div className="pt-6 border-t border-gray-300">
+          <p className="text-xl font-semibold text-[#ffa500]">
+            {locale === 'vi' ? 'Hân hạnh được phục vụ!' : 'Willing to serve!'}
+          </p>
+
+          <p className="text-gray-600 italic mt-4">
+            {locale === 'vi' ? 'Trân trọng' : 'Best regards'}
+          </p>
+        </div>
+      </div>
+    </BaubergerLayout>
+  )
+}

@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/open-letter/layout,_N_T_/[locale]/open-letter/page,_N_T_/fr/open-letter"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/open-letter/__PAGE__",
+    "/$d$locale/open-letter",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

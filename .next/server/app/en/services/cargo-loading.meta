@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/[locale]/layout,_N_T_/[locale]/services/layout,_N_T_/[locale]/services/cargo-loading/layout,_N_T_/[locale]/services/cargo-loading/page,_N_T_/en/services/cargo-loading"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/$d$locale/services/cargo-loading/__PAGE__",
+    "/$d$locale/services/cargo-loading",
+    "/$d$locale/services",
+    "/$d$locale",
+    "/_index",
+    "/_head"
+  ]
+}

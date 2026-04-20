@@ -1,0 +1,12 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "rewrites": [
+    {
+      "source": "/((?!en|vi|de|fr|_next|api|favicon.ico|images).*)",
+      "destination": "/en/$1"
+    }
+  ]
+}

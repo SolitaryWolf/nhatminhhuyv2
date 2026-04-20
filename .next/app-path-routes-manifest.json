@@ -1,0 +1,21 @@
+{
+  "/[locale]/about/page": "/[locale]/about",
+  "/[locale]/business-license/page": "/[locale]/business-license",
+  "/[locale]/compliance/page": "/[locale]/compliance",
+  "/[locale]/contact/page": "/[locale]/contact",
+  "/[locale]/open-letter/page": "/[locale]/open-letter",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/partners/page": "/[locale]/partners",
+  "/[locale]/services/cargo-loading/page": "/[locale]/services/cargo-loading",
+  "/[locale]/services/inland-transport/page": "/[locale]/services/inland-transport",
+  "/[locale]/services/labor-supply/page": "/[locale]/services/labor-supply",
+  "/[locale]/services/lifting-installation/page": "/[locale]/services/lifting-installation",
+  "/[locale]/services/packaging/page": "/[locale]/services/packaging",
+  "/[locale]/services/page": "/[locale]/services",
+  "/[locale]/services/vehicle-rental/page": "/[locale]/services/vehicle-rental",
+  "/[locale]/vision-mission/page": "/[locale]/vision-mission",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/"
+}
