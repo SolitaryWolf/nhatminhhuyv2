@@ -3,33 +3,57 @@
 ## Prerequisites
 - Node.js 18+ installed on the server
 - SSH access to your hosting
+- Git installed on server (recommended)
 
-## Deployment Steps
+## Quick Start
 
-### 1. Build the application locally or on server
+### SSH into your server and run:
 ```bash
-npm install
+cd /var/www/vhosts/nhatminhhuy.com/app
+git pull origin main
+chmod +x deploy.sh
+./deploy.sh
+```
+
+## Detailed Deployment Steps
+
+### 1. First Time Setup
+
+**SSH into server:**
+```bash
+ssh your-username@nhatminhhuy.com
+cd /var/www/vhosts/nhatminhhuy.com/app
+```
+
+**Clone repository:**
+```bash
+git clone https://github.com/SolitaryWolf/nhatminhhuy v2.git .
+```
+
+**Run deployment script:**
+```bash
+chmod +x deploy.sh
+./deploy.sh
+```
+
+### 2. Install Dependencies (Critical!)
+
+**⚠️ IMPORTANT:** node_modules is NOT in Git. You MUST install on server:
+```bash
+npm install --production
+```
+
+This will install all required packages including 'next', 'react', etc.
+
+### 3. Verify .next directory
+
+The `.next/` production build IS included in Git. If missing:
+```bash
 npm run build
 ```
 
-### 2. Files to upload to server
-Upload these files/folders to your hosting:
-- `.next/` (entire folder after build)
-- `node_modules/` (or run npm install on server)
-- `public/` (all static assets)
-- `package.json`
-- `package-lock.json`
-- `server.js`
-- `next.config.ts`
-- `middleware.ts`
-- `i18n.config.ts`
-
-### 3. On the server, run:
+### 4. Start the server
 ```bash
-# Install dependencies (if not uploaded)
-npm install --production
-
-# Start the server
 npm start
 ```
 

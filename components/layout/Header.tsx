@@ -31,9 +31,9 @@ export function Header({ locale, translations }: HeaderProps) {
                 <HiPhone className="h-4 w-4" />
                 <span className="hidden sm:inline">0968 903 913</span>
               </a>
-              <a href="mailto:huy@nhatminhhuy.com.com" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
+              <a href="mailto:huy@nhatminhhuy.com" className="flex items-center gap-2 hover:text-blue-400 transition-colors">
                 <HiMail className="h-4 w-4" />
-                <span className="hidden sm:inline">huy@nhatminhhuy.com.com</span>
+                <span className="hidden sm:inline">huy@nhatminhhuy.com</span>
               </a>
             </div>
             <div className="flex items-center gap-3">

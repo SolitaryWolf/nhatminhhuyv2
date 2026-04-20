@@ -59,8 +59,8 @@ export function Footer({ locale, translations }: FooterProps) {
               </div>
               <div className="flex items-center gap-3">
                 <HiMail className="h-5 w-5 text-gray-400 flex-shrink-0" />
-                <a href="mailto:huy@nhatminhhuy.com.com" className="text-gray-400 hover:text-white transition-colors">
-                  huy@nhatminhhuy.com.com
+                <a href="mailto:huy@nhatminhhuy.com" className="text-gray-400 hover:text-white transition-colors">
+                  huy@nhatminhhuy.com
                 </a>
               </div>
             </div>

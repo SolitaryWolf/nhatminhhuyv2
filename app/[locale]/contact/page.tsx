@@ -27,7 +27,7 @@ export default function ContactPage({ params }: { params: Params }) {
       phone: 'Phone',
       phoneValue: '(84) 968 903 913 (Mr. Huy - Manager)',
       email: 'Email',
-      emailValue: 'huy@nhatminhhuy.com.com',
+      emailValue: 'huy@nhatminhhuy.com',
       taxCode: 'Tax Code',
       taxCodeValue: '0316926982',
     }
@@ -60,7 +60,7 @@ export default function ContactPage({ params }: { params: Params }) {
           <div className="p-4 rounded-lg bg-white/5 border border-white/10">
             <span className="font-semibold text-[#1F5F9E] block mb-2">{t.email}:</span>
             <p className="text-gray-800">
-              <a href="mailto:huy@nhatminhhuy.com.com" className="text-[#1F5F9E] hover:text-[#FFD900] transition-colors font-semibold">{t.emailValue}</a>
+              <a href="mailto:huy@nhatminhhuy.com" className="text-[#1F5F9E] hover:text-[#FFD900] transition-colors font-semibold">{t.emailValue}</a>
             </p>
           </div>
 

@@ -156,7 +156,7 @@ export function BaubergerLayout({ children, locale, backgroundImage = '/images/D
                   onClick={(e) => {
                     e.preventDefault();
                     e.stopPropagation();
-                    const email = 'huy@nhatminhhuy.com.com';
+                    const email = 'huy@nhatminhhuy.com';
                     window.location.href = `mailto:${email}`;
                     navigator.clipboard.writeText(email).then(() => {
                       alert(isVi ? 'Email đã được sao chép!' : 'Email copied to clipboard!');
@@ -168,7 +168,7 @@ export function BaubergerLayout({ children, locale, backgroundImage = '/images/D
                   title="Send us an email"
                   type="button"
                 >
-                  huy@nhatminhhuy.com.com
+                  huy@nhatminhhuy.com
                 </button>
               </div>
               <nav className="flex items-center gap-2 sm:gap-4 lg:gap-8 text-[10px] sm:text-xs lg:text-sm font-bold text-[#1F5F9E]">
